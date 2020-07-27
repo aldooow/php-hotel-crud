@@ -17,7 +17,7 @@ WHERE `id` = $room_id";
 $result = $conn->query($sql);
 
 if($result){
-  echo 'update completed';
+  header('Location: ' . $base_path . '?uproom= ' . $room_number);
 }else{
   die('update failed!');
 }
