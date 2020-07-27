@@ -22,6 +22,7 @@
             <td><?php echo $room['floor']; ?></td>
             <td>
               <a href="<?php echo $base_path ?>show/show.php?id=<?php echo $room['id']; ?>">VIEW</a>
+              <a href="<?php echo $base_path ?>update/edit.php?id=<?php echo $room['id']; ?>">EDIT</a>
             </td>
           </tr>
           <!-- END room -->
